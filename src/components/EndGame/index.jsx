@@ -1,9 +1,14 @@
 import React from 'react'
 import './style.css'
 
-const EndGame = () => {
+const EndGame = ({retry}) => {
   return (
-    <div>EndGame</div>
+    <div>
+      <h1>Game Over</h1>
+      <button onClick={retry}>Resetar jogo</button>
+      
+
+    </div>
   )
 }
 
