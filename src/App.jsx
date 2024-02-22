@@ -142,6 +142,7 @@ function App() {
  
   return (
     <div className="App">
+        <title>Secret Word - Advinhe a palavra!</title>
       {gameStage === 'start' && <StartScreen startGame={startGame} />}
       {gameStage === 'game' && <Game verifyLetter={verifyLetter}
       pickedWord={pickedWord} 
